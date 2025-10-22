@@ -1,8 +1,19 @@
 # **Conditional DCGAN on CelebA**
 This project aims to create a Generative Adverisle Network (GAN) capable of generating high quality, realistic face images based on the CelebA dataset.
 
+### 👉 Quick Access  
 
-**Core ML Skills:**  
+**1. 📓 Colab Notebook:**  
+[View on GitHub](https://github.com/vlad-uve/Conditional-DCGAN-CelebA/blob/main/Training_Conditional_DCGAN_Face_Generation_Experiment__8.ipynb)  
+
+**2. 🖼️ Live App (App Runner):**  
+[AWS App Runner](https://kzkhm3pj3d.us-east-2.awsapprunner.com/)  
+
+**3. 🔗Production-ready Deployed Version with User Interface:**
+[Face-Generator Repository](https://github.com/vlad-uve/Face-Generator)  
+
+
+### **Core ML Skills:**
 ![GANs](https://img.shields.io/badge/-GANs-000000?style=flat&logoColor=white) 
 ![Model Development](https://img.shields.io/badge/-Model%20Development-1E90FF?style=flat) 
 ![ML Engineering](https://img.shields.io/badge/-ML%20Engineering-008080?style=flat) 
@@ -11,7 +22,7 @@ This project aims to create a Generative Adverisle Network (GAN) capable of gene
 ![Model Tuning](https://img.shields.io/badge/-Model%20Tuning-9932CC?style=flat) 
 ![Model Evaluation](https://img.shields.io/badge/-Model%20Evaluation-4CAF50?style=flat)  
 
-**Tools / Stack:**  
+### **Tools / Stack:**  
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=flat) 
 ![TorchEval](https://img.shields.io/badge/-TorchEval-2E8B57?style=flat) 
 ![CelebA Dataset](https://img.shields.io/badge/-CelebA%20Dataset-6A5ACD?style=flat) 
@@ -348,3 +359,12 @@ This log documents eight experiments, showing both successful strategies and fai
 - **Conclusion:** Ready model for deployment; strong foundation for a future architecture augmentations
 
 👉 *Key Takeaway:* Careful LR control and stability tricks → best results.
+
+
+# References
+
+1. Goodfellow, I. et al. (2014). [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661)
+2. Radford, A. et al. (2016). [DCGAN: Unsupervised Representation Learning with Deep Convolutional GANs](https://arxiv.org/pdf/1511.06434)
+3. Miyato, T. & Koyama, M. (2018). [cGANs with Projection Discriminator](https://arxiv.org/pdf/1802.05637)
+4. Zhao, Y. et al. (2020). [DiffAugment: Data-Efficient GAN Training](https://arxiv.org/pdf/2006.10738)
+5. Liu, Z. et al. (2015). [CelebA Dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
